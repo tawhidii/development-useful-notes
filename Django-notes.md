@@ -52,3 +52,6 @@
 
 ###### open browser and go to `127.0.0.1:8000`
 
+###### Creating a app in django 
+`python3 manage.py startapp pages`
+
