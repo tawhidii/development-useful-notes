@@ -58,3 +58,25 @@
 ###### Creating a app in django 
 `python3 manage.py startapp pages`
 
+## MySQL Database Settings in Django
+
+###### First install mysqlclient by :
+`pip3 install mysqlclient`
+
+###### Then add those lines in settings.py given below :
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'database_name',
+        'USER': 'database_username',
+        'PASSWORD': 'database_password',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    }
+}
+
+```
+
+
