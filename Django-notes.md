@@ -8,7 +8,9 @@
 
 ###### install virtual environment. if requirement already satisfied, means virtual environment already installed
 			
-`pip3 install virtualenv`
+`pip3 install virtualenv`  
+
+
 `pip install virtualenv` (for windows user)
 
 ###### create a virtualenv dir. here "myenv" is the dir name. you can give yours.
