@@ -79,4 +79,7 @@ DATABASES = {
 
 ```
 
+###### Then migrate database 
+`python3 manage.py migrate`
+
 
