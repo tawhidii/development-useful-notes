@@ -18,3 +18,12 @@
 `cd /opt/lampp/ && sudo -s`
 
 `./lampp start`
+
+
+
+###### Start XAMPP
+`sudo /opt/lampp/lampp start`  
+
+###### Stop XAMPP
+`sudo /opt/lampp/lampp stop`
+
